@@ -22,3 +22,5 @@ exports:
     template: eartharxiv
     article_type: Report
 ---
+
+# Add this on the first commit to GitHub
