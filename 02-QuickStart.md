@@ -1,8 +1,8 @@
 ---
-title: Second Topic
-subject: 
+title: Getting Started in Tripoli
+subject: Loading and Visualizing Data
 subtitle: 
-short_title: 
+short_title: QuickStart
 authors:
   - name: Noah McLean
     affiliation:
@@ -16,4 +16,9 @@ exports:
   - format: pdf
     template: eartharxiv
     article_type: Report
+numbering:
+  code: false
+  headings: true
 ---
+# Loading data files into Tripoli
+

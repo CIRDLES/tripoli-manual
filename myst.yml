@@ -1,19 +1,21 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: Tripoli Documentation
+  title: Tripoli User Guide
   # description:
   keywords: []
   authors: []
-  github: https://github.com/noahmclean/documentationTest
+  github: https://github.com/CIRDLES/Tripoli
   # bibliography: []
 site:
   template: book-theme
   title: Tripoli Docs
   options:
-    logo: TripoliLogoLarge.png
+    logo: graphics/TripoliLogoLarge.png
   nav: []
   actions:
-    - title: Vanity
-      url: https://www.noahmclean.org/
+    - title: Report an Issue
+      url: https://github.com/CIRDLES/Tripoli/issues/new
+    - title: Ask a Question
+      url: https://github.com/CIRDLES/Tripoli/discussions/new?category=q-a
   domains: []
