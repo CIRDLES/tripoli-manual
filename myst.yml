@@ -12,6 +12,7 @@ site:
   title: Tripoli Docs
   options:
     logo: graphics/TripoliLogoLarge.png
+    favicon: graphics/favicon.ico
   nav: []
   actions:
     - title: Report an Issue

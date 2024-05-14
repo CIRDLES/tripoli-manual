@@ -12,6 +12,7 @@ Tripoli was developed with a [grant](https://www.nsf.gov/awardsearch/showAward?A
 
 The current Tripoli project is built on a previous program with the same name.  The original version of Tripoli, which we now call "OG Tripoli" was Windows- and TIMS-only.  We're reproducing and expanding on OG Tripoli's capabilities with this project, but you can find more info about OG Tripoli [here](https://cirdles.org/projects/tripoli/ "OG Tripoli").
 
+
 ## Supported Operating Systems
 
 Tripoli runs in Java and therefore works on Windows, Mac, and Linux operating systems.  You will need to [install Java before running Tripoli](./01-Installation.md).  

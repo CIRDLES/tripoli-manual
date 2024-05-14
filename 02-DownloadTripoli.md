@@ -3,6 +3,7 @@ title: Downloading Tripoli
 subject: Setup
 subtitle: 
 short_title: Download Tripoli
+date: May 13, 2024
 authors:
   - name: Noah McLean
     affiliation:
@@ -20,8 +21,6 @@ numbering:
   code: false
   headings: true
 ---
-
-_updated May 13, 2024_  
 
 Once you've successfully [installed Java](./01-Installation.md), you're ready to download Tripoli from GitHub.
 

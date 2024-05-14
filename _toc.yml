@@ -1,0 +1,12 @@
+format: jb-book
+root: index.md
+parts:
+  - caption: Setup
+    chapters:
+      - file: 01-Installation.md
+      - file: 02-DownloadTripoli.md
+      - file: 03-QuickStart.md
+  - caption: Getting Started
+    chapters:
+      - file: 04-LoadingData.md
+      - file: 05-MakingPlots.md
