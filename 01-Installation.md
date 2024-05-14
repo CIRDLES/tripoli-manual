@@ -1,8 +1,8 @@
 ---
 title: Java Download and Installation
-subject: 
+subject: Setup
 subtitle: for Tripoli Users
-short_title: Install
+short_title: Install Java
 affiliations:
     - id: KU
       institution: University of Kansas
@@ -26,7 +26,7 @@ numbering:
   headings: true
 ---
 
-# Downloading Java for Tripoli Users  
+
 _updated May 13, 2024_  
 
 Before running Tripoli, you need to download [Java](wiki:Java_(software_platform)) and install it on your computer.  Tripoli is written in the programming language Java, and it runs on your computer (Windows, Mac, or Linux) using the Java platform.  Because Java is open source, you can download the latest version for free from several reputable distributors, including Liberica and Azul.  You can pick your distribution as long as it includes JavaFX, which has support for rich graphics, and the version is 17 or higher. The following have been tested and work with Tripoli.  

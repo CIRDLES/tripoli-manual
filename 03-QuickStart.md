@@ -1,6 +1,6 @@
 ---
 title: Getting Started in Tripoli
-subject: Loading and Visualizing Data
+subject: Setup
 subtitle: 
 short_title: QuickStart
 authors:
