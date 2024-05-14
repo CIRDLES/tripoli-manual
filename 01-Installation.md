@@ -16,7 +16,7 @@ authors:
     orcid: 0000-0003-0388-1862
     email: noahmc@ku.edu
 license: CC-BY-4.0
-keywords: documentation, myst
+# keywords: documentation, myst
 exports:
   - format: docx
   - format: pdf
@@ -24,13 +24,13 @@ exports:
     template: lapreprint-typst
 downloads:
   - id: paper
-    title: Download Paper
+    title: Download Java Instructions
 numbering:
   code: false
   headings: true
 ---
 
-Before running Tripoli, you need to download [Java](wiki:Java_(software_platform)) and install it on your computer.  Tripoli is written in the programming language Java, and it runs on your computer (Windows, Mac, or Linux) using the Java platform.  Because Java is open source, you can download the latest version for free from several reputable distributors, including Liberica and Azul.  You can pick your distribution as long as it includes JavaFX, which has support for rich graphics, and the version is 17 or higher. The following have been tested and work with Tripoli.  
+Before running Tripoli, you need to download [Java](wiki:Java_(software_platform)) and install it on your computer.  Tripoli is written in the programming language Java, and it runs on your computer (Windows, Mac, or Linux) using the Java platform.  Because it is open source, you can download the latest version of Java for free from several reputable distributors, including Liberica and Azul.  You can pick your distribution as long as it includes JavaFX, which has support for rich graphics, and the version is 17 or higher. The following have been tested and work with Tripoli.  
 
 # Gather some information about your computer
 

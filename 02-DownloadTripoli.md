@@ -26,8 +26,8 @@ Once you've successfully [installed Java](./01-Installation.md), you're ready to
 
 # Go to the Tripoli repository's software releases at GitHub
 
-Go [here](https://github.com/CIRDLES/Tripoli/releases "Tripoli Releases") to find the latest Triopli release.  
-We will always release new versions here, along with some release notes that describe what's new in this version.  You can scroll down to access all past versions of Redux.  Version numbers will get the "-alpha" tag as long as Triopli is in its initial development stages.  Please use Tripoli, find bugs, and make suggestions!  We will document how to use Tripoli and how we've tested it here.
+Go to [https://github.com/CIRDLES/Tripoli/releases](https://github.com/CIRDLES/Tripoli/releases "Tripoli Releases") to find the latest Tripoli release.  
+We will always release new versions here, along with some release notes that describe what's new in this version.  You can scroll down to access all past versions of Redux.  Version numbers will get the "-alpha" tag as long as Tripoli is in its initial development stages.  Please use Tripoli, find bugs, and make suggestions!  We will document how to use Tripoli and how we've tested it here.
 
 # Find the Tripoli .jar file
 
