@@ -35,5 +35,6 @@ Tripoli supports import of the following file formats from the following mass sp
 ## Getting Started with Tripoli
 
 Brand new to Tripoli? Get started here:
-1. [Installation](./01-Installation.md)
-2. [Quick Start](./02-QuickStart.md)
+1. [Install Java](./01-Installation.md)
+2. [Download Tripoli](./02-InstallTripoli.md)
+3. [Quick Start](./03-QuickStart.md)
