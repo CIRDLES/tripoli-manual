@@ -46,13 +46,13 @@ Newer Apple products use Apple Silicon (e.g., the M1, M2, etc chips) with an ARM
 ## Liberica Distribution (Choice 1, easier install)
 1. Go to the bellsoft Liberica page [here](https://bell-sw.com/pages/downloads/#jdk-21-lts "bellsoft Liberica downloads").  
 2. Scroll down past the banners the until you the list of 64-bit operating systems and options.  If you have a 32-bit operating system, scroll down just a little farther.
-```{image} graphics/Liberica_OS_Options.png
+```{image} ../graphics/Liberica_OS_Options.png
 :alt: Liberica OS Options
 :width: 400px
 :align: left
 ```
 3. Underneath the name of your operating system, choose your processor architecture (x86 or ARM), then click on the dropdown menu and choose "Package: Full JRE".  For instance, on a Mac with an Intel processor, your choice would look like this, though version numbers are frequently updated:
-```{image} graphics/Liberica_macOS_FullJRE.png
+```{image} ../graphics/Liberica_macOS_FullJRE.png
 :alt: macOS Full JRE
 :width: 600px
 :align: left
@@ -63,7 +63,7 @@ Newer Apple products use Apple Silicon (e.g., the M1, M2, etc chips) with an ARM
 ## Azul Distribution (Choice 2, more complicated)
 1. Go to the Azul distribution page [here](https://www.azul.com/downloads/?version=java-21-lts&package=jre-fx#zulu "Azul Java Distributions").  This page should show you only downloads for Java 21 (LTS means long-term stable) and JRE packages (Java Runtime Environment -- what you need to run Java on your computer).
 2. In the set of dropdown menus at the top, choose your operating system and architecture.  Alternately, find your operating system and architecture in the list below the dropdown menus.  
-```{image} graphics/Azul_OS_Options.png
+```{image} ../graphics/Azul_OS_Options.png
 :alt: Azul OS Options
 :width: 500px
 :align: left

@@ -3,10 +3,13 @@ root: index
 parts:
   - caption: Setup
     chapters:
-      - file: 01-Installation.md
-      - file: 02-DownloadTripoli.md
-      - file: 03-QuickStart.md
-  - caption: Getting Started
+      - file: ./setup/01-Installation.md
+      - file: ./setup/02-DownloadTripoli.md
+      - file: ./setup/03-QuickStart.md
+  - caption: Using Tripoli
     chapters:
-      - file: 04-LoadingData.md
-      - file: 05-MakingPlots.md
+      - file: ./using_Tripoli/05-LoadingData.md
+      - file: ./using_Tripoli/06-MakingPlots.md
+  - caption: How It Works
+    chapters:
+      - file: ./how_it_works/10-StatsRefresher.md

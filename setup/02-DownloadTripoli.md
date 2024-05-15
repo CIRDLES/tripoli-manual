@@ -11,7 +11,7 @@ authors:
     orcid: 0000-0003-0388-1862
     email: noahmc@ku.edu
 license: CC-BY-4.0
-keywords: documentation, myst
+# keywords: help
 exports:
   - format: docx
   - format: pdf
@@ -22,7 +22,7 @@ numbering:
   headings: true
 ---
 
-Once you've successfully [installed Java](./01-Installation.md), you're ready to download Tripoli from GitHub.
+Once you've successfully [installed Java](../setup/01-Installation.md), you're ready to download Tripoli from GitHub.
 
 # Go to the Tripoli repository's software releases at GitHub
 
@@ -32,7 +32,7 @@ We will always release new versions here, along with some release notes that des
 # Find the Tripoli .jar file
 
 In the release you want to download (generally the most recent one at the top), click the word "Assets" to show the downloadable files for that release.  
-```{image} graphics/GitHub_Tripoli_Releases.png
+```{image} ../graphics/GitHub_Tripoli_Releases.png
 :alt: Liberica OS Options
 :width: 600px
 :align: left
