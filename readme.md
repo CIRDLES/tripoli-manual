@@ -1,5 +1,5 @@
-# Tripoli
+# Tripoli Documentation
 
-Documentation for the Tripoli software: interactively visualizing, interpreting, and exporting mass spectrometer data.  
+Documentation for the Tripoli software from CIRDLES: interactively visualizing, interpreting, and exporting mass spectrometer data.  
 
-Read the Tripoli manual at [noahmclean.github.io/TripoliDocs/](noahmclean.github.io/TripoliDocs/ "Tripoli Documentation")
+Read the Tripoli manual at [https://noahmclean.github.io/TripoliDocs/](https://noahmclean.github.io/TripoliDocs/ "Tripoli Documentation")
