@@ -20,7 +20,7 @@ Tripoli runs in Java and therefore works on Windows, Mac, and Linux operating sy
 
 ## Supported Mass Spectrometers
 
-Tripoli supports import of the following file formats from the following mass spectrometers.  Don't see your instrument or file format?  Contact us [here](https://github.com/CIRDLES/Tripoli/issues/new "Tripoli GitHub Issues").  
+Tripoli supports import of file formats from the following mass spectrometers.  Don't see your instrument or file format?  Contact us [here](https://github.com/CIRDLES/Tripoli/issues/new "Tripoli GitHub Issues").  
 
 **Current, TIMS:**
 - Isotopx Phoenix (IonVantage .xls, Isolinx .timsdp)
