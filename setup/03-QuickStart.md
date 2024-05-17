@@ -39,12 +39,17 @@ Click the "Open Anyway" button, enter your password if needed, and the Tripoli a
 
 You only need to go to Privacy and Security settings once to open this .jar file.  Double-clicking on it in the future will just open Tripoli.  However, when you download a new version of Tripoli with a new version number and filename, you'll need to repeat the process.  Or, you can 
 
+## PC:
 
+Double-clicking the Tripoli .jar file should work on a PC right away, as long as you've installed Java.  However, if you have an old Java installation, Windows might try and fail to open Tripoli with your older version.  To fix this problem, we've created a .bat file, downloadable from GitHub in 'Assets' right beside the .jar file.  Download both, then double-click the .bat file to open Tripoli.
 
+## Linux: 
+
+If you're running Linux, you might be interested in 
 
 # Loading data files into Tripoli
 
-The easiest way to open a mass spectrometer data file in Tripoli is to drag and drop it into the Tripoli window.  Other methods are detailed in [Loading Data](../using_Tripoli/05-LoadingData.md "Loading Data").
+The easiest way to open a mass spectrometer data file in Tripoli is to drag and drop it into the Tripoli window.  Other methods are detailed in [Loading Data](../using_Tripoli/06-LoadingData.md "Loading Data").
 
 ## Find your data file
 
@@ -55,7 +60,7 @@ Open Windows Explorer, Mac Finder, or your Linux file manager.  If you don't hav
 
 ## Drag and Drop
 
-Drag and drop the data file out of your file manager and into Tripoli.  If there's already a data file open in Tripoli, that's ok!  Tripoli will add the new file to your session.  Read more about sessions at [Loading Data](../using_Tripoli/05-LoadingData.md "Loading Data").
+Drag and drop the data file out of your file manager and into Tripoli.  If there's already a data file open in Tripoli, that's ok!  Tripoli will add the new file to your session.  Read more about sessions at [Loading Data](../using_Tripoli/06-LoadingData.md "Loading Data").
 
 # Interactively Visualize your Data
 

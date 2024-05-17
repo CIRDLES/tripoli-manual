@@ -8,8 +8,9 @@ parts:
       - file: ./setup/03-QuickStart.md
   - caption: Using Tripoli
     chapters:
-      - file: ./using_Tripoli/05-LoadingData.md
-      - file: ./using_Tripoli/06-MakingPlots.md
+      - file: ./using_Tripoli/05-StartingTripoli.md
+      - file: ./using_Tripoli/06-LoadingData.md
+      - file: ./using_Tripoli/07-MakingPlots.md
   - caption: How It Works
     chapters:
       - file: ./how_it_works/10-StatsRefresher.md
