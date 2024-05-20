@@ -41,7 +41,11 @@ You only need to go to Privacy and Security settings once to open this .jar file
 
 ## PC:
 
-Double-clicking the Tripoli .jar file should work on a PC right away, as long as you've installed Java.  However, if you have an old Java installation, Windows might try and fail to open Tripoli with your older version.  To fix this problem, we've created a .bat file, downloadable from GitHub in 'Assets' right beside the .jar file.  Download both, then double-click the .bat file to open Tripoli.
+Double-clicking the Tripoli .jar file should work on a PC right away, as long as you've installed Java.  However, if you have an old Java installation, Windows might try and fail to open Tripoli with your older version.  To fix this problem, we've created a .bat file, which you can download here:
+
+- {download}`Tripoli.bat <../testData/Tripoli.bat>`
+
+Move both the Tripoli .jar file you want to run and the .bat file to a new folder, then double-click on the .bat file to open Tripoli.
 
 ## Linux: 
 

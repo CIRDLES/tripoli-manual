@@ -1,5 +1,11 @@
-# Tripoli
-
+---
+title: Tripoli
+exports:
+  - format: pdf
+    template: plain_latex_book
+    output: exports/tripoli-manual.pdf
+    toc: _toc.yml
+---
 ```{image} graphics/TripoliLogoLarge.png
 :alt: Tripoli Logo
 :width: 200px
