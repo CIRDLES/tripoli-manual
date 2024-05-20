@@ -21,7 +21,7 @@ The current Tripoli project is built on a previous program with the same name.  
 
 ## Supported Operating Systems
 
-Tripoli runs in Java and therefore works on Windows, Mac, and Linux operating systems.  You will need to [install Java before running Tripoli](./01-Installation.md).  
+Tripoli runs in Java and therefore works on Windows, Mac, and Linux operating systems.  You will need to [install Java before running Tripoli](./setup/01-Installation.md).  
 
 
 ## Supported Mass Spectrometers
@@ -35,12 +35,12 @@ Tripoli supports import of file formats from the following mass spectrometers.  
 
 **Planned, MC-ICPMS:**
 - Nu Plasma 3
-- Thermo Neptune (±Plus)
+- Thermo Neptune (±Plus) (in progress)
 
 
 ## Getting Started with Tripoli
 
 Brand new to Tripoli? Get started here:
-1. [Install Java](./01-Installation.md)
-2. [Download Tripoli](./02-InstallTripoli.md)
-3. [Quick Start](./03-QuickStart.md)
+1. [Install Java](./setup/01-Installation.md)
+2. [Download Tripoli](./setup/02-DownloadTripoli.md)
+3. [Quick Start](./setup/03-QuickStart.md)
