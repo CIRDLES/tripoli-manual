@@ -1,11 +1,8 @@
 ---
 title: Tripoli
-exports:
-  - format: pdf
-    template: plain_latex_book
-    output: exports/tripoli-manual.pdf
-    toc: _toc.yml
+license: CC-BY-4.0
 ---
+
 ```{image} graphics/TripoliLogoLarge.png
 :alt: Tripoli Logo
 :width: 200px
