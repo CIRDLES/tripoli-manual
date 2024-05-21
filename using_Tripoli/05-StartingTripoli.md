@@ -21,4 +21,4 @@ numbering:
   headings: true
 ---
 
-Starting Triopli
+Starting Tripoli

@@ -1,8 +1,8 @@
 ---
-title: Getting Started in Tripoli
+title: Plotting Mass Spec Data
 subject: Setup
 subtitle: 
-short_title: QuickStart
+short_title: Plotting Data
 authors:
   - name: Noah McLean
     affiliation:
@@ -23,3 +23,7 @@ numbering:
 
 # Making Plots in Tripoli
 
+```{image} ../graphics/ExampleTripoliPlots.png
+:alt: Tripoli Example Plots
+:align: center
+```

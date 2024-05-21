@@ -21,13 +21,18 @@ numbering:
   headings: true
 ---
 
+```{image} ../graphics/TripoliOpeningScreen.png
+:alt: Tripoli Opening Screen
+:align: center
+```
+
 # Start Tripoli
 
 The easiest way to start Tripoli is to double-click on the Tripoli .jar file you downloaded.  However, depending on your computer's security settings, you might get hassled by some warnings.  Here's what to do:
 
 ## Mac:
 
-The security settings on your Mac are likely configured so that you get a warning when you try and open an app that you downloaded from the internet.  Tripoli is not malware, and we are not secretly downloading your unpublished data -- we have enough of our own!  To open Tripoli anyway, open System Settings (the gear icon on your dock), then click on "✋ Privacy and Security" in the left-hand menu. Scroll down on the right-hand side of the window until you see a prompt asking if you want to "Open  Anyway". 
+The security settings on your Mac are likely configured so that you get a warning when you try and open an app that you downloaded from the internet.  Tripoli is not malware, and we are not secretly downloading your unpublished data -- we have enough of our own!  To open Tripoli anyway, open System Settings (the gear icon on your dock), then click on "✋ Privacy and Security" in the left-hand menu. Scroll down on the right-hand side of the window until you see a prompt asking if you want to "Open Anyway". 
 
 ```{image} ../graphics/MacPrivacyAndSecuritySettings.png
 :alt: Mac Privacy and Security Settings
@@ -49,7 +54,7 @@ Move both the Tripoli .jar file you want to run and the .bat file to a new folde
 
 ## Linux: 
 
-If you're running Linux, you might be interested in 
+If you're running Linux, you probably have the expertise to use the [command line interface to open Tripoli](../using_Tripoli/05-StartingTripoli.md "Starting Tripoli").
 
 # Loading data files into Tripoli
 
@@ -66,6 +71,26 @@ Open Windows Explorer, Mac Finder, or your Linux file manager.  If you don't hav
 
 Drag and drop the data file out of your file manager and into Tripoli.  If there's already a data file open in Tripoli, that's ok!  Tripoli will add the new file to your session.  Read more about sessions at [Loading Data](../using_Tripoli/06-LoadingData.md "Loading Data").
 
-# Interactively Visualize your Data
+# Interactively Visualize Your Data
 
 After you open a data file, you'll immediately see a window full of plots.  
+
+```{image} ../graphics/ExampleTripoliPlots.png
+:alt: Tripoli Example Plots
+:width:
+:align: center
+```
+
+Buttons along the top of the window and inside each time series plot control the display of your data.  Hover your cursor over a plot to see a tooltip with mouse button actions to zoom in/out, enter "sculpt" mode to perform data rejection, and more.  The summary statistics beside each plot update as you reject or restore data, as do the graphical summaries shown as shaded regions behind the data points.
+
+# Manage Your Analysis
+
+The Tripoli "Analysis Manager" window behind your plots now shows details about your loaded analysis.  
+
+```{image} ../graphics/TripoliAnalysisManager.png
+:alt: Tripoli AnalysisManager
+:width:
+:align: center
+```
+
+An interactive panel at the bottom of the window contains checkboxes for showing or hiding different measured isotope ratios or intensities.  At the bottom of the Analysis Manager, there are buttons to launch the plot window as well as to export the (U-Pb) data to ET_Redux and to the clipboard.
