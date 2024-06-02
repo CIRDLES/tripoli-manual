@@ -42,7 +42,7 @@ The security settings on your Mac are likely configured so that you get a warnin
 
 Click the "Open Anyway" button, enter your password if needed, and the Tripoli application will open.  
 
-You only need to go to Privacy and Security settings once to open this .jar file.  Double-clicking on it in the future will just open Tripoli.  However, when you download a new version of Tripoli with a new version number and filename, you'll need to repeat the process.  Or, you can 
+You only need to go to Privacy and Security settings once to open this .jar file.  Double-clicking on it in the future will just open Tripoli.  However, when you download a new version of Tripoli with a new version number and filename, you'll need to repeat the process.  Or, you can open Tripoli from the command line using the instructions in the [Starting Tripoli](../using_Tripoli/05-StartingTripoli.md "Starting Tripoli") section.
 
 ## PC:
 
@@ -94,3 +94,43 @@ The Tripoli "Analysis Manager" window behind your plots now shows details about 
 ```
 
 An interactive panel at the bottom of the window contains checkboxes for showing or hiding different measured isotope ratios or intensities.  At the bottom of the Analysis Manager, there are buttons to launch the plot window as well as to export the (U-Pb) data to ET_Redux and to the clipboard.
+
+# Manage Your Session
+
+You can load more than one mass spectrometer file into Tripoli at a time.  Close the plot window if it's open, and then drag another mass spectrometer data file onto the main Tripoli window.  The new file and plots should open immediately.
+
+To see both anayses in your new session, go to the menu at the top of the Tripoli window and choose Session -> Manage Session.  
+
+```{image} ../graphics/TripoliManageSessionMenuSelection.png
+:alt: Tripoli Session Manager
+:width:
+:align: center
+```
+
+You can name your session, see a list of the analyses included in this session, and add notes.  To save the entire session, including the data, data rejection, and data visualization choices for all analyses, go to Session -> Save Session as... The resulting session file will have the .tripoli extension.  
+
+# Recap
+
+Now you're ready to load more mass spectrometry data files, examine the results, and export your data interpretations.  Tripoli is still under active development.  If you findn issues or bugs, go to the main Tripoli menu and find Help -> Contribute an Issue on GitHub.  If you have a question or want to start a discussion about new features to add, go to the main Tripoli menu and find Help -> Visit Tripoli Discussions on GitHub.  Note that both require a GitHub username and password (these are very handy!).
+
+For more detailed information on starting Tripoli, loading data, and making plots, please see the next section of the manual, Using Tripoli.
+
+# Read More:
+
+::::{grid} 1 1 2 3
+
+:::{card}
+:header: [Starting Tripoli](../using_Tripoli/05-StartingTripoli.md "Starting Tripoli")
+Get Tripoli started using Java, from your file broswer or the command line.
+:::
+
+:::{card}
+:header: [Loading Data](../using_Tripoli/06-LoadingData.md "Loading Data")
+Learn what kinds of mass spectrometer files Tripoli will load and what Tripoli can do with your data.
+:::
+
+:::{card}
+:header: [Making Plots](../using_Tripoli/07-MakingPlots.md "Making Plots")
+Navigate the plot window, including interactions like zooming and data rejection.
+:::
+::::

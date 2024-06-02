@@ -39,7 +39,7 @@ You've probably needed this information before to install software on your compu
 2. Whether you have a 64-bit (probably) or a 32-bit processor (much older)
 3. Does your processor use the x86 or ARM architecture?  
 
-Newer Apple products use Apple Silicon (e.g., the M1, M2, etc chips) with an ARM architecture, and older Apple products with Intel chips and Windows machines usually use an x86-compatible architecture.  For more information, google how to figure out to determine what kind of processor is in your computer, then whether it is x86 or ARM.  
+Newer Apple products use Apple Silicon (e.g., the M1, M2, etc chips) with an ARM architecture, and older Apple products with Intel chips and Windows machines usually use an x86-compatible architecture.  For more information, google how to determine what type of processor is in your computer, then whether it is x86 or ARM.  
 
 # Download a Java Distribution
 
