@@ -14,3 +14,4 @@ parts:
   - caption: How It Works
     chapters:
       - file: ./how_it_works/10-StatsRefresher.md
+      - file: ./how_it_works/glossary.md

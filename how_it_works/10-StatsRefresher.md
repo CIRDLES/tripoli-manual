@@ -1,5 +1,5 @@
 ---
-title: A Statistics Refresher
+title: Basic Statistics for Mass Spectrometry
 subject: How It Works
 subtitle: 
 short_title: 
@@ -22,23 +22,39 @@ numbering:
   headings: false
 ---
 
-# The arithmetic mean
-The arithmetic mean $\bar{x}$ for $n$ measurements indexed $i = 1\ldots n$ is
+Software for all major mass spectrometer manufacturers provides some out-of-the-box statistics to summarize measured data.  Mass spectrometry 
+
+# The arithmetic mean and its uncertainty
+
+## The arithmetic mean
+The {term}`arithmetic mean <arithmetic mean>` $\bar{x}$ for $n$ measurements indexed $i = 1\ldots n$ is
 $$ \bar{x} = \dfrac{1}{n}\sum_{i=1}^n x_i \label{eq:ArithmeticMean}$$
 
-
-# The variance
-The variance $\sigma^2$ is a measure of how scattered about the mean the data points are.
+## The variance
+The variance $\sigma^2$ measures the scatter of the data points around the mean value.
 $$ \sigma^2 = \dfrac{1}{n-1}\sum_{i=1}^n \big( x_i - \bar{x}\big)^2 \label{eq:Variance} $$
-where $\bar{x}$ is the mean defined in equation [](#eq:ArithmeticMean). The variance is tricky, since it has the same units as your measurements, squared.
+where $\bar{x}$ is the mean defined in equation [](#eq:ArithmeticMean) and $n$ is the number of data points. The variance is tricky because it has the same units as your measurements, squared.
 
-
-# The standard deviation
-The standard deviation also measures how your data points scatter around the mean, but this time in units that you actually understand.
-$$ \sigma = \sqrt{\sigma^2} $$ 
+## The standard deviation
+The {term}`standard deviation <standard deviation>` also measures how your data points scatter around the mean, but this time in units that you actually understand.
+$$ \sigma = \sqrt{\sigma^2} \label{eq:StdDeviation}$$ 
 where $\sigma^2$ is the variance defined in equation [](#eq:Variance). 
 
-# The standard error
-The standard error tells you how well you know the mean.  It gets smaller as $n$ gets bigger, reflecting your improved knowledge of the mean as you make more measurements.
-$$ \sigma_{\bar{x}} = \dfrac{\sigma}{\sqrt{n}} $$
+## The standard error
+The {term}`standard error` tells you how well you know the mean.  It gets smaller as $n$ gets bigger, reflecting your improved knowledge of the mean as you make more measurements.
+$$ \sigma_{\bar{x}} = \dfrac{\sigma}{\sqrt{n}} \label{eq:StdError} $$
+
+## Standard deviation vs. standard error
+Both the standard deviation and the standard error are used to represent uncertainties in measurements.  So which should you use?  
+
+Use the **standard deviation** when you're looking to describe the scatter among your measured data points.  The standard deviation doesn't change as you measure more data and increase $n$.  For instance, you might use the standard deviation to measure the reproducibility of your reference material measurements.  You could use the standard deviation of your past reference material measurements to predict the range of values where your next reference material measurement is likely to be.
+
+Use the **standard error** when you're describing the uncertainty in a mean value.  According to equation [](#eq:StdError), the standard error gets smaller as $n$ increases, reflecting your increased confidence in the mean as you take more measurements.  If you've just measured 100 isotope ratios, then the standard error best reflects your uncertainty in the mean of those 100 ratios.  If you want to improve the uncertainty in the mean by a factor of two, then equation [](#eq:StdError) says that you need to collect four times as much data with the same standard deviation.  
+
+## Relative uncertainties
+A relative uncertainty an absolute uncertainty (a standard deviation or a standard error) divided by the mean value.  Relative uncertainties are often expressed in percent (e.g., $100\,\sigma/\bar{x}$), but could also be expressed for instance in per mil (‰) or ppm.
+
+# Confidence Intervals
+
+You can calculate a mean, standard deviation, and standard error for any dataset with more than one measurement.  These three statistics are just the numbers calculated by the above formulas.  However, we usually want to make some more quantitative estimates about our data.  For instance, a 95% <wiki:confidence_interval> for the mean would be expected to contain the true value of the mean about 95% of the time.  This idea helps you make the leap from an uncertainty (just a number) to a mental picture of what values the .  
 
