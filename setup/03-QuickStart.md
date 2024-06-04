@@ -99,7 +99,7 @@ An interactive panel at the bottom of the window contains checkboxes for showing
 
 You can load more than one mass spectrometer file into Tripoli at a time.  Close the plot window if it's open, and then drag another mass spectrometer data file onto the main Tripoli window.  The new file and plots should open immediately.
 
-To see both anayses in your new session, go to the menu at the top of the Tripoli window and choose Session -> Manage Session.  
+To see both analyses in your new session, go to the menu at the top of the Tripoli window and choose Session → Manage Session.  
 
 ```{image} ../graphics/TripoliManageSessionMenuSelection.png
 :alt: Tripoli Session Manager
@@ -107,11 +107,11 @@ To see both anayses in your new session, go to the menu at the top of the Tripol
 :align: center
 ```
 
-You can name your session, see a list of the analyses included in this session, and add notes.  To save the entire session, including the data, data rejection, and data visualization choices for all analyses, go to Session -> Save Session as... The resulting session file will have the .tripoli extension.  
+You can name your session, see a list of the analyses included in this session, and add notes.  To save the entire session, including the data, data rejection, and data visualization choices for all analyses, go to Session → Save Session as... The resulting session file will have the .tripoli extension.  
 
 # Recap
 
-Now you're ready to load more mass spectrometry data files, examine the results, and export your data interpretations.  Tripoli is still under active development.  If you findn issues or bugs, go to the main Tripoli menu and find Help -> Contribute an Issue on GitHub.  If you have a question or want to start a discussion about new features to add, go to the main Tripoli menu and find Help -> Visit Tripoli Discussions on GitHub.  Note that both require a GitHub username and password (these are very handy!).
+Now you're ready to load more mass spectrometry data files, examine the results, and export your data interpretations.  Tripoli is still under active development.  If you find issues or bugs, go to the main Tripoli menu and find Help → Contribute an Issue on GitHub.  If you have a question or want to start a discussion about new features to add, go to the main Tripoli menu and find Help → Visit Tripoli Discussions on GitHub.  Note that both require a GitHub username and password (these are very handy!).
 
 For more detailed information on starting Tripoli, loading data, and making plots, please see the next section of the manual, Using Tripoli.
 
@@ -121,7 +121,7 @@ For more detailed information on starting Tripoli, loading data, and making plot
 
 :::{card}
 :header: [Starting Tripoli](../using_Tripoli/05-StartingTripoli.md "Starting Tripoli")
-Get Tripoli started using Java, from your file broswer or the command line.
+Get Tripoli started using Java, from your file browser or the command line.
 :::
 
 :::{card}

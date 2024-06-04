@@ -56,5 +56,14 @@ A relative uncertainty an absolute uncertainty (a standard deviation or a standa
 
 # Confidence Intervals
 
-You can calculate a mean, standard deviation, and standard error for any dataset with more than one measurement.  These three statistics are just the numbers calculated by the above formulas.  However, we usually want to make some more quantitative estimates about our data.  For instance, a 95% <wiki:confidence_interval> for the mean would be expected to contain the true value of the mean about 95% of the time.  This idea helps you make the leap from an uncertainty (just a number) to a mental picture of what values the .  
+You can calculate a mean, standard deviation, and standard error for any dataset with more than one measurement.  These three statistics are just the numbers calculated by the above formulas.  However, we usually want to make some more quantitative estimates about our data.  For instance, a 95% <wiki:confidence_interval> for the mean would be expected to contain the true value of the mean about 95% of the time.  This idea helps you make the leap from an uncertainty (just a number) to a mental picture of what range of values might reasonably be attributed to the parameter (e.g., isotope ratio) you're measuring.
+
+Isotope ratio data is often presented as a mean value and a ±2σ confidence interval, interpreted as a 95% confidence interval.  To construct a 95% confidence interval in this way, the $\sigma$ that you want is the {term}`standard error`, since it tells you about the uncertainty in the mean value.  For instance, if you measure 100 isotope ratios with a mean of 1.234 and a standard deviation of 0.0120, then the standard error of the ratios is 
+$$ \sigma_{\bar{x}} \  = \  \dfrac{\sigma}{\sqrt{n}} \  = \  \dfrac{0.0120}{\sqrt{100}} \  = \  0.0012, $$ 
+and a 95% confidence interval for the mean ratio would be 
+$$ \bar{x} \pm 2\sigma_{\bar{x}} \  = \  1.234 \pm 0.0024. $$
+
+To make a 95% confidence interval in this way, though, requires that you make a number of assumptions that are not always met by mass spectrometer data.
+
+## Assumptions
 

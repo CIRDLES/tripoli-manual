@@ -11,8 +11,8 @@ site:
   template: book-theme
   title: Tripoli Docs
   options:
-    logo: graphics/TripoliLogoLarge.png
-    favicon: graphics/favicon.ico
+    logo: ./graphics/TripoliLogoLarge.png
+    favicon: ./graphics/TripoliLogoLarge.png
   nav: []
   actions:
     - title: Report an Issue

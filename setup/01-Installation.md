@@ -22,9 +22,6 @@ exports:
   - format: pdf
     id: paper
     template: lapreprint-typst
-downloads:
-  - id: paper
-    title: Download Java Instructions
 numbering:
   code: false
   headings: true
