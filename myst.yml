@@ -2,11 +2,24 @@
 version: 1
 project:
   title: Tripoli User Guide
-  # description:
+  description: Documentation for Tripoli, Mass Spectrometer Data Visualization and Interpretation Software
   keywords: []
   authors: []
   github: https://github.com/CIRDLES/Tripoli
+  funding: 
+    statement: This work was supported by the National Science Foundation.
+    id: NSF EAR 2149083
+    sources:
+      - name: NSF
+    name: Collaborative Research- Catalytic- Improving Accuracy and Efficiency of Multicollector Mass Spectrometry
+    investigators:
+      - name: Noah McLean
+      - name: James Bowring
+      - name: Scott Burdick
   # bibliography: []
+  downloads: 
+  - file: ./exports/TripoliManual.pdf
+    title: Tripoli Manual
 site:
   template: book-theme
   title: Tripoli Docs
