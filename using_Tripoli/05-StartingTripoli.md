@@ -3,6 +3,7 @@ title: Running the Tripoli Application
 subject: Using Tripoli
 subtitle: 
 short_title: Starting Tripoli
+date: June 19, 2024
 authors:
   - name: Noah McLean
     affiliation:
@@ -32,12 +33,19 @@ Before you start Tripoli, make sure that you have:
 
 In most cases, the simplest way to start the Tripoli application is to double-click on the .jar file you downloaded from [the GitHub repository](https://github.com/CIRDLES/Tripoli "GitHub Repository").  The .jar file contains everything you need to open the application and start reviewing data.  This approach is likely the best when setting up Tripoli on a shared lab computer, where users with a variety of software comfort levels will be opening Tripoli.  If you just double-clicked the Tripoli .jar file and nothing happened, or you got a warning, see OS-specific troubleshooting below.
 
+## OS-specific troubleshooting: double-click a .jar file
+::::{tab-set}
+:::{tab-item} Mac
+:sync: Mac
 ```{include} ../setup/99-MacSecuritySettings.md
 ```
+:::
 
-## PC:
+:::{tab-item} Windows
+:sync: Windows
+## Windows:
 
-If you're using an older version of Java for other applications on your PC, then it's possible that this older version is associated with your .jar file extension.  
+If you're using an older version of Java for other applications on your PC running Windows, then it's possible that this older version is associated with your .jar file extension.  
 
 But that's ok!  
 
@@ -49,18 +57,42 @@ Unfortunately, when you double-click on a .jar file, your operating system has t
 
 Move both the Tripoli .jar file you want to run and the .bat file to a new folder, then double-click on the .bat file to open Tripoli.  When you want to update Tripoli, then delete the .jar file for your older version of Tripoli and copy the newer .jar file into the folder with the .bat file.  
 
-If this seems like a pain in the neck, then you might be interested in running Tripoli from the command line.  It's quick and easy.  
+If this seems like a pain in the neck, then you might be interested in running Tripoli from the command line.  It's quick and easy!
 
-# The better way: the command line
+:::
+::::
+
+# The better way: > the command line
 
 A command line interface is a place to type instructions (command lines) that your computer will follow.  The advantage here is that you can issue specific commands to your computer and get additional low-level output from the programs you run.  While most of us spend most of our time in our operating system's graphical user interface double-clicking on apps to run them, the dinosaurs among the Tripoli user base will recognize an old friend in the familiar DOS prompt from eons ago.
 
+::::{tab-set}
+:::{tab-item} Mac
+:sync: Mac
 ## Mac
 
 To use the command line, first you'll need to find it.  On a Mac, open Spotlight and type "Terminal" to open the Terminal app.  In Linux, you can usually open your Terminal app with `Ctrl`-`Alt`-`T`.  
 
 To the left of your cursor, you'll see the name of the folder in your file system that you now have open.  To see the name of the complete path to this folder, type `pwd`.  Type `ls` to see the contents of the folder.  Navigate to your folder containing your Tripoli .jar file using `cd` to change your directory.  
 
+**If you don't know how to do this, no problem!** Open Finder and navigate to the folder containing your Tripoli.jar file.  
+```{image} ../graphics/MacOSFinderWindow.png
+:alt: Mac OS Finder Window
+:width:
+:align: center
+```
+
+Now right-click the folder containing your Tripoli .jar file, then select "Open Terminal at Folder" from the list of options -- it will be toward the bottom. You now have a Terminal window open to your Tripoli folder.  
+```{image} ../graphics/TerminalWindowBlank.png
+:alt: Mac Terminal window open to the Tripoli folder
+:width:
+:align: center
+```
+
+:::
+
+:::{tab-item} Windows
+:sync: Windows
 ## Windows
 
 To use the command line, first you'll need to find it.  In Windows, go to the Start menu, type CMD and hit `<Enter>` to bring up the Command Prompt.  
@@ -75,7 +107,7 @@ To the left of your cursor, you'll see the name of the folder in your file syste
 
 Now navigate to the folder containing your Tripoli .jar file using `cd` to change directory as needed.  
 
-If you don't know how to do this, no problem! Open File Explorer and navigate to the folder containing your Tripoli.jar file.  
+**If you don't know how to do this, no problem!** Open File Explorer and navigate to the folder containing your Tripoli.jar file.  
 ```{image} ../graphics/WindowsFileExplorer.png
 :alt: Windows File Explorer
 :width:
@@ -88,9 +120,27 @@ Now put your cursor in address bar at the top of the File Explorer window (just 
 :width:
 :align: center
 ```
+:::
+::::
 
 To run Tripoli from the command prompt using Java, type
 `java -jar Tripoli-X.X.X.jar` where X.X.X is the version number of Tripoli you're using.  For instance, to run Tripoli version 0.5.1, type `java -jar Tripoli-0.5.1.jar`:
+
+::::{tab-set}
+:::{tab-item} Mac
+:sync: Mac
+
+```{image} ../graphics/MacTerminalWithJava.png
+:alt: Windows Command Prompt with Java command
+:width:
+:align: center
+```
+Type `<Return>` to run Tripoli.  You've done it!
+
+:::
+:::{tab-item} Windows
+:sync: Windows
+
 ```{image} ../graphics/CommandPromptWithJava.png
 :alt: Windows Command Prompt with Java command
 :width:
@@ -98,3 +148,5 @@ To run Tripoli from the command prompt using Java, type
 ```
 Type `<Enter>` to run Tripoli.  You've done it!
 
+:::
+::::
