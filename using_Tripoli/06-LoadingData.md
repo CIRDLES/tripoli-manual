@@ -47,7 +47,7 @@ There are two ways to open a data file in Tripoli, described in separate section
 (dragAndDrop)=
 ## Drag and drop
 
-Locate the mass spectrometer file in your file manager, like Windows Explorer on a PC or Finder on a Mac.  Make sure that your have found the right file type, and not a folder of data and method files.  See [Supported file types](#supported-file-types) for the types of files Tripoli currently opens.  
+Locate the mass spectrometer file in your file manager, like Windows Explorer on a PC or Finder on a Mac.  Make sure that your have found the right file type, and not a folder of data and method files.  See [Supported file types](#supportedFileTypes) for the types of files Tripoli currently opens.  
 
 You can drag and drop your mass spectrometer data file (left click and drag) into the blank Tripoli opening screen (with the Tripoli logo on a mango sorbet color gradient).  This will automatically open the file and open a window containing plots of all your measured data by default.
 

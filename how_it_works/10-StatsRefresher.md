@@ -68,3 +68,11 @@ To make a 95\% confidence interval in this way, though, requires that you make a
 ## Assumptions
 
 The following assumptions are baked into the way we report and think about 
+
+## Visualization
+
+:::{figure} #ratio-plots
+:label: fig-ratio-lots
+:width:
+:align: center
+:::
